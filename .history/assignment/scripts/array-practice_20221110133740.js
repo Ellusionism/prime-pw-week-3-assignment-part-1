@@ -13,7 +13,6 @@ const favFoods = [`chicken marsala`, `pizza`, `chimichangas`, `jalapeno poppers`
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
-
 console.log(`Some of my favorite foods are:`, favFoods);
 
 
