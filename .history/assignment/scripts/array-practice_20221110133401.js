@@ -100,5 +100,4 @@ console.log(`My favorite foods are: ${favFoods[0]} and ${favFoods[1]} and ${favF
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
-const newList = animalArray.concat(favFoods);
-console.log(newList);
+const 
