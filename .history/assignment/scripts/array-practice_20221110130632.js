@@ -31,14 +31,14 @@ console.log('--- 3. Accessing items in an array ---');
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
-console.log(`Second animal is`, animalArray[1]);
+console.log()
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log(`Third animal is`, animalArray[2]);
+
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-console.log(`Last animal is`, animalArray[animalArray.length - 1])
+
 
 
 // 4. Adding & Removing Array Items
@@ -49,8 +49,7 @@ animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
-favFoods.push(`burgers`);
-console.log(`Added a new food to favorites:` , favFoods);
+
 
 
 // Example: Remove the last animal by using Array.pop
@@ -60,17 +59,14 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
-let delFood = favFoods.pop();
-console.log(`Removed food:`, delFood);
-console.log(`Favorite foods:`, favFoods);
+
 
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-favFoods.unshift(`eggs`);
-console.log(`Favorite foods:`, favFoods);
+
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
@@ -79,22 +75,18 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
-remFood = favFoods.shift();
-console.log(`Removed food:`, remFood);
+
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-favFoods [1] = `salad`;
-console.log(`Changed food, new list:`, favFoods);
+
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-favFoods.sort();
-favFoods.reverse();
-console.log(favFoods);
+
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
-console.log(`My favorite foods are: ${favFoods[0]} and ${favFoods[1]} and ${favFoods[2]} and ${favFoods[3]}.`);
+
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
